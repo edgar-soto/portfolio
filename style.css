@@ -62,3 +62,26 @@ ul {
 .project-card p {
     margin-bottom: 16px;
 }
+
+.learning-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 24px;
+}
+
+.learning-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.learning-card h2 {
+    margin-top: 0;
+    color: #1f2937;
+}
+
+.learning-card p {
+    margin-bottom: 12px;
+}

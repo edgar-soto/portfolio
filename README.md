@@ -19,6 +19,7 @@ https://edgar-soto.github.io/portfolio/
 * Projects
 * Learning
 * Resume
+* Contact
 
 ## Technologies Used
 

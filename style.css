@@ -175,3 +175,21 @@ main section:last-child {
         grid-template-columns: 1fr;
     }
 }
+
+.contact-links ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contact-links li {
+    margin-bottom: 12px;
+}
+
+.contact-links a {
+    color: #1f2937;
+    font-weight: bold;
+}
+
+.contact-links a:hover {
+    color: #374151;
+}

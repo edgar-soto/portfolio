@@ -1,3 +1,5 @@
+/* Base styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +7,25 @@ body {
     color: #222;
     line-height: 1.6;
 }
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: white;
+}
+
+/* Page layout */
+
+main section {
+    margin-bottom: 32px;
+}
+
+main section:last-child {
+    margin-bottom: 0;
+}
+
+/* Navigation */
 
 nav {
     background-color: #222;
@@ -22,12 +43,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-main {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
-    background-color: white;
-}
+/* Typography */
 
 h1 {
     color: #1f2937;
@@ -41,6 +57,8 @@ h2 {
 ul {
     padding-left: 24px;
 }
+
+/* Project cards */
 
 .project-card {
     border: 1px solid #ddd;
@@ -62,6 +80,8 @@ ul {
 .project-card p {
     margin-bottom: 16px;
 }
+
+/* Learning cards */
 
 .learning-grid {
     display: grid;
@@ -86,13 +106,7 @@ ul {
     margin-bottom: 12px;
 }
 
-main section {
-    margin-bottom: 32px;
-}
-
-main section:last-child {
-    margin-bottom: 0;
-}
+/* Resume */
 
 .resume-item {
     border-left: 4px solid #1f2937;
@@ -107,6 +121,8 @@ main section:last-child {
 .resume-item p {
     margin-top: 0;
 }
+
+/* Homepage hero */
 
 .hero {
     padding: 24px 0;
@@ -142,6 +158,49 @@ main section:last-child {
     background-color: #374151;
 }
 
+/* Contact */
+
+.contact-links ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contact-links li {
+    margin-bottom: 12px;
+}
+
+.contact-links a {
+    color: #1f2937;
+    font-weight: bold;
+}
+
+.contact-links a:hover {
+    color: #374151;
+}
+
+/* Footer */
+
+footer {
+    max-width: 900px;
+    margin: 40px auto 24px;
+    padding: 20px;
+    color: #6b7280;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a {
+    color: #374151;
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+
 @media (max-width: 700px) {
     nav {
         padding: 12px;
@@ -174,41 +233,4 @@ main section:last-child {
     .learning-grid {
         grid-template-columns: 1fr;
     }
-}
-
-.contact-links ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.contact-links li {
-    margin-bottom: 12px;
-}
-
-.contact-links a {
-    color: #1f2937;
-    font-weight: bold;
-}
-
-.contact-links a:hover {
-    color: #374151;
-}
-
-footer {
-    max-width: 900px;
-    margin: 40px auto 24px;
-    padding: 20px;
-    color: #6b7280;
-    text-align: center;
-    font-size: 14px;
-}
-
-footer a {
-    color: #374151;
-    margin: 0 8px;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }

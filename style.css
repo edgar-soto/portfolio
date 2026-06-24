@@ -193,3 +193,22 @@ main section:last-child {
 .contact-links a:hover {
     color: #374151;
 }
+
+footer {
+    max-width: 900px;
+    margin: 40px auto 24px;
+    padding: 20px;
+    color: #6b7280;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a {
+    color: #374151;
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
